@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Package, Zap } from "lucide-react";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Header simples */}
       <header className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
@@ -52,7 +50,7 @@ const Index = () => {
                 1
               </div>
               <h3 className="text-lg font-semibold text-foreground">Faça seu Pedido</h3>
-              <p className="text-muted-foreground">Selecione os itens do seu kit através do nosso sistema</p>
+              <p className="text-muted-foreground">Selecione o evento que gostaria da retirada kit através do nosso sistema</p>
             </div>
 
             <div className="text-center space-y-4">
@@ -60,7 +58,7 @@ const Index = () => {
                 2
               </div>
               <h3 className="text-lg font-semibold text-foreground">Confirmamos</h3>
-              <p className="text-muted-foreground">Nossa equipe prepara seu kit com cuidado</p>
+              <p className="text-muted-foreground">Nossa equipe fará a retirada do seu kit com cuidado e segurança</p>
             </div>
 
             <div className="text-center space-y-4">
@@ -68,7 +66,7 @@ const Index = () => {
                 3
               </div>
               <h3 className="text-lg font-semibold text-foreground">Receba e Corra</h3>
-              <p className="text-muted-foreground">Receba no horário combinado e foque na sua corrida</p>
+              <p className="text-muted-foreground">Receba em sua casa e foque na sua corrida</p>
             </div>
           </div>
         </div>
@@ -87,7 +85,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground">Economia de Tempo</h3>
-                  <p className="text-muted-foreground">Não perca tempo montando seu kit</p>
+                  <p className="text-muted-foreground">Não perca tempo indo até o local de retirada</p>
                 </div>
               </div>
 
@@ -97,7 +95,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-foreground">Entrega Rápida</h3>
-                  <p className="text-muted-foreground">Receba em até 24h no horário combinado</p>
+                  <p className="text-muted-foreground">Receba no conforto de casa. Entrega garantida 1 dia antes do evento</p>
                 </div>
               </div>
 
@@ -106,8 +104,8 @@ const Index = () => {
                   ✓
                 </div>
                 <div>
-                  <h3 className="font-semibold text-foreground">Qualidade Garantida</h3>
-                  <p className="text-muted-foreground">Produtos verificados e selecionados</p>
+                  <h3 className="font-semibold text-foreground">Cuidado e Segurança</h3>
+                  <p className="text-muted-foreground">Seu kit é entregue com cuidado e total segurança</p>
                 </div>
               </div>
             </div>
@@ -133,14 +131,10 @@ const Index = () => {
               <Package className="h-5 w-5 text-primary" />
               <span className="font-semibold text-foreground">KitRunner</span>
             </div>
-            <p className="text-sm text-muted-foreground">
-              © 2024 KitRunner. Todos os direitos reservados.
-            </p>
+            <p className="text-sm text-muted-foreground">© 2025 KitRunner. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
